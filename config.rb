@@ -1,3 +1,3 @@
 sass_dir = 'src/scss'
-css_dir = 'public/css'
+css_dir = 'css'
 line_comments = false
