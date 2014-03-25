@@ -9,9 +9,9 @@
     "url": "https://github.com/frozzare/startpoint.git"
   },
   "keywords": [
-		"http",
-		"compass",
-    "server"
+     "http",
+     "compass",
+     "server"
   ],
   "dependencies" : {
     "connect"   :  "*",
