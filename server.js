@@ -5,8 +5,8 @@ var connect = require('connect')
   , app = connect()
       .use(connect.static(__dirname))
       .use(function (req, res) {
-				fs.readFile(__dirname + req.originalUrl, function (err, buf) {
-        	if (!err) res.end(buf.toString());
+	fs.readFile(__dirname + req.originalUrl, function (err, buf) {
+          if (!err) res.end(buf.toString());
         });
       });
 
